@@ -7,7 +7,7 @@ import {
   Title,
   ButtonContainer,
   Button,
-} from './styles'
+} from '../../styles/screen/contato'
 import { Layout } from '../../components'
 import { IoLogoWhatsapp } from 'react-icons/io'
 
