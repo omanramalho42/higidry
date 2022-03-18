@@ -28,6 +28,10 @@ export const Grid = styled.div<GridProps>`
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr;
     }
+
+    @media screen and (max-width: 990px) {
+        padding: 60px;
+    }
 `;
 
 export const Panel = styled.div`

@@ -7,6 +7,7 @@ import {
   Title,
   ButtonContainer,
   Button,
+  ImageContainer
 } from '../../styles/screen/contato'
 import { Layout } from '../../components'
 import { IoLogoWhatsapp } from 'react-icons/io'
@@ -19,7 +20,11 @@ const Contato: NextPage = () => {
     <Layout title='Contato'>
       <Container>
         <Title>Entre em contato</Title>
-        <Image src='/images/folheto.jpeg' />
+
+        {/* <ImageContainer> */}
+          <Image src='/images/folheto.jpeg' alt='folheto'/>
+        {/* </ImageContainer> */}
+        
         <ButtonContainer>
           <Button onClick={() => router.push(`whatsapp://send?text=${message}&phone=558586565655`)}>
             <IoLogoWhatsapp 

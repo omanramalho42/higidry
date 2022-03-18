@@ -4,18 +4,21 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
-    padding: 0 50px;
-
-    justify-content: center;
+    padding: 30px;
 `;
 
 export const Image = styled.img`
+    min-width: 450px;
     box-shadow: 0 0 12px 6px ${({ theme }) => theme.colors.shadow};
 
     transition: 0.5s;
     &:hover {
         transform: scale(1.0225);
     }
+`;
+
+export const ImageContainer = styled.div`
+    /* display: flex; */
 `;
 
 export const Title = styled.h4`

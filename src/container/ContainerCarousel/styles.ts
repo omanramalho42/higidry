@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-    flex: 1;
+    display: flex;
     margin-top: 20px;
     background-color: ${({ theme }) => theme.colors.background}; 
 `;
@@ -17,8 +17,8 @@ export const ContainerImage = styled.div`
 export const Image = styled.img`
     border-radius: 49%;
 
-    min-width: 100px;
-    max-width: 600px;
+    /* min-width: 100px;
+    max-width: 600px; */
 
     box-shadow: 0 0 12px 6px ${({ theme }) => theme.colors.shadow};
 

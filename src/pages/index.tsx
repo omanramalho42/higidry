@@ -13,6 +13,7 @@ import {
 import Contato from './Contato'
 import Sobre from './Sobre'
 import { Layout } from '../components'
+
 // INTERFACES
 interface BannerProps {
   key: number;
